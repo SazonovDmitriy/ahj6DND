@@ -1,0 +1,55 @@
+* {
+    background-color: rgb(11, 179, 230);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.boards {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+button {
+    background-color:rgb(233, 232, 231);
+    border: 0;
+}
+
+.form {
+    background-color: rgb(233, 232, 231);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.boards__item {
+    background-color: rgb(233, 232, 231);
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    background-color: rgb(233, 232, 231);
+    display: flex;
+    justify-content: baseline;
+    display: none;
+}
+
+.add__btn {
+    background-color: rgb(233, 232, 231);
+    padding-top: 10px;
+}
+
+.textarea {
+    background-color: #fff;
+    border: 0;
+}
