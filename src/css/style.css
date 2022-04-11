@@ -19,6 +19,17 @@
     width: 20%;
 }
 
+.buttons {
+    background-color: rgb(233, 232, 231);
+    display: flex;
+    justify-content: baseline;
+}
+
+.add__btn {
+    background-color: rgb(233, 232, 231);
+    padding-top: 10px;
+}
+
 button {
     background-color:rgb(233, 232, 231);
     border: 0;
@@ -37,16 +48,8 @@ button {
     justify-content: center;
 }
 
-.buttons {
-    background-color: rgb(233, 232, 231);
-    display: flex;
-    justify-content: baseline;
+.hidden {
     display: none;
-}
-
-.add__btn {
-    background-color: rgb(233, 232, 231);
-    padding-top: 10px;
 }
 
 .textarea {
