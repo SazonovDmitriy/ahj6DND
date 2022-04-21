@@ -1,10 +1,16 @@
+import addTask from "./list";
+
 export default function addBtn() {
-    const btn = document.querySelectorAll('.add__btn');
-    const btnItem = document.querySelectorAll('.add__item')
-    console.log(btn)
+    const addItem = document.querySelectorAll('.add__item');
+    const lists = document.querySelectorAll('lists');
+    const div = document.createElement('div');
+    const form = document.querySelectorAll('form');
 
-    btn.addEventListener('click', () => {
-        btnItem.classList.remove('hidden')
-    })
-
+    for (let i = 0; i < addItem.length; i += 1) {
+        console.log(addItem[i])
+        console.log(form)
+        addItem[i].addEventListener('click', () => {
+            
+        })
+    }
 }
